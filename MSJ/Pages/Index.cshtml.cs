@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace MyScriptureJournal.Pages
+{
+    public class IndexModel : PageModel
+    {
+        public void OnGet()
+        {
+
+        }
+    }
+}
+
+/*
+
+dotnet restore
+dotnet aspnet-codegenerator razorpage -m SavedScripture -dc SavedScripturesContext -udl -outDir Pages/MyJournal --referenceScriptLibraries
+
+ */
